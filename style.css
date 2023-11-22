@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(53, 55, 61);
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+    width: 80%;
+}
+
+.dice {
+    display: inline-block;
+    width: 48%
+}
+
+h1 {
+    margin: 60px 4px;
+    text-shadow: 5px 0 #232931;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #4ecca3;
+}
+
+p {
+    font-size: 1.4rem;
+    color: #4ecca3;
+}
+
+.dice img {
+    width: 80%;
+    max-width: 12rem;
+}
+
+.btn {
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(62, 170, 134);
+    border: 1px solid rgb(45, 201, 149);
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-top: 5rem;
+    max-width: 16rem;
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.btn:hover {
+    background-color: #4ecca3;
+}
+
+.btn:active {
+    background-color: #389173;
+}
+
+@media screen (min-width: 620px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        max-width: 400px;
+        font-size: 1.4rem;
+    }
+}
